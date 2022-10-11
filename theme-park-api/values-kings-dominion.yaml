@@ -2,7 +2,7 @@
 replicaCount: 1
 
 # Domain the application will be served from
-dnsName: kings-dominion-dev.apps.dev.taco.moe
+dnsName: kings-dominion-dev.apps.cluster-bpdzf.bpdzf.sandbox47.opentlc.com
 
 applications:
   - name: kings-dominion-dev

@@ -2,7 +2,7 @@
 replicaCount: 1
 
 # Domain the application will be served from
-dnsName: six-flags-dev.apps.dev.taco.moe
+dnsName: six-flags-dev.apps.cluster-bpdzf.bpdzf.sandbox47.opentlc.com
 
 applications:
   - name: six-flags-dev

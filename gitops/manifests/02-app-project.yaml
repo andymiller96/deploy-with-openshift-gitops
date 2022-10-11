@@ -8,4 +8,4 @@ spec:
     - name: in-cluster
       namespace: theme-park-api
   sourceRepos:
-    - https://github.com/RyanMillerC/deploy-with-openshift-gitops.git
+    - https://github.com/andymiller96/deploy-with-openshift-gitops.git
