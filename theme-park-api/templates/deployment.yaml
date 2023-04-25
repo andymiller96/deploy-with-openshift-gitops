@@ -14,15 +14,8 @@ spec:
       labels:
         app: "{{ $.Release.Name }}-{{ .name }}"
     spec:
-      volumes: 
-        - name: my-vol
-          persistentVolumeClaim:
-            claimName: myvol
       containers:
-      - name: "{{ $.Release.Name }}-{{ .name }}"          
-        volumeMounts:
-          - name: my-vol
-            mountPath: /tmp/shared-efs
+      - name: "{{ $.Release.Name }}-{{ .name }}"         
         image: "{{ .image }}"
         imagePullPolicy: Always
         ports:
