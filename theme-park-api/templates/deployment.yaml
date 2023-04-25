@@ -24,10 +24,10 @@ spec:
         livenessProbe:
           httpGet:
             port: 8080
-            path: /actuator/info
+            path: /actuator/health
         readinessProbe:
           httpGet:
             port: 8080
-            path: /rides
+            path: /ride
 
 {{ end }}
